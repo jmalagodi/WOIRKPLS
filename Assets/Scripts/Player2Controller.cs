@@ -84,9 +84,9 @@ public class Player2Controller : MonoBehaviour
         if (collision.gameObject.CompareTag("Spike"))
         {
             Debug.Log("Game Over");
-            LivesCounterp1.instance.DecreaseLives();
-            LivesCounterp1.instance.DecreaseLives();
-            LivesCounterp1.instance.DecreaseLives();
+            LivesCounterp2.instance.DecreaseLives();
+            LivesCounterp2.instance.DecreaseLives();
+            LivesCounterp2.instance.DecreaseLives();
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
@@ -103,7 +103,7 @@ public class Player2Controller : MonoBehaviour
         {
 
             Destroy(other.gameObject);
-            LivesCounterp1.instance.DecreaseLives();
+            LivesCounterp2.instance.DecreaseLives();
 
         }
     }
