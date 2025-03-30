@@ -4234,7 +4234,7 @@ GameObject:
   - component: {fileID: 220191216}
   m_Layer: 0
   m_Name: Thwomp (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7129,7 +7129,7 @@ GameObject:
   - component: {fileID: 345655677}
   m_Layer: 0
   m_Name: Thwomp (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25965,7 +25965,7 @@ GameObject:
   - component: {fileID: 1201912556}
   m_Layer: 0
   m_Name: Thwomp (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33657,7 +33657,7 @@ GameObject:
   - component: {fileID: 1618490976}
   m_Layer: 0
   m_Name: Thwomp
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
