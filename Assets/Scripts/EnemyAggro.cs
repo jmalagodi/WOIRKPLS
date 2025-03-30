@@ -43,7 +43,7 @@ public class EnemyAggro : MonoBehaviour
         bool player2InSight = angleToPlayer2 < fieldOfViewAngle / 2f;
 
 
-        if (Vector2.Distance(transform.position, player.transform.position) < aggroRange && playerInSight || (Vector2.Distance(transform.position, player.transform.position) < aggroRange && playerInSight))
+        if (Vector2.Distance(transform.position, player.transform.position) < aggroRange && playerInSight || (Vector2.Distance(transform.position, player2.transform.position) < aggroRange && player2InSight))
         {
             patrol = false;
 
