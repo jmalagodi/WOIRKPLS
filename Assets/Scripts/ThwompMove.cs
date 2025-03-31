@@ -14,7 +14,7 @@ public class ThwompMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         currentPoint = pointB.transform;
-        speed = 50f;
+        speed = 40f;
     }
 
     // Update is called once per frame
@@ -23,12 +23,12 @@ public class ThwompMove : MonoBehaviour
 
         if (currentPoint == pointB.transform)
         {
-            speed = 50f;
+            speed = 20f;
             rb.velocity = new Vector2(0, -speed);
         }
         else
         {
-            speed = 20f;
+            speed = 10f;
             rb.velocity = new Vector2(0, speed);
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointB.transform)
