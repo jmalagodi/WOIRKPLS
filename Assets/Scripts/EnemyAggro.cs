@@ -22,6 +22,7 @@ public class EnemyAggro : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         currentPoint = pointB.transform;
         patrol = true;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
