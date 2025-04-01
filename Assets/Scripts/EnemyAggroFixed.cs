@@ -22,6 +22,7 @@ public class EnemyAggroFixed : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         currentPoint = pointB.transform;
         patrol = true;
+        speed = 150;
     }
 
     // Update is called once per frame
@@ -99,7 +100,7 @@ public class EnemyAggroFixed : MonoBehaviour
 
         if (patrol)
         {
-            speed = 2.5f;
+            speed = 1.5f;
             if (currentPoint == pointB.transform)
             {
                 rb.velocity = new Vector2(speed, 0);

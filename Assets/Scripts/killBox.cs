@@ -19,8 +19,12 @@ public class killBox : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Player2"))
         {
-            Time.timeScale = 0.0f;
+            
             Debug.Log("Game Over");
+            LivesCounterp1.instance.DecreaseLives();
+            LivesCounterp1.instance.DecreaseLives();
+            LivesCounterp1.instance.DecreaseLives();
+
         }
         else
         {

@@ -1,0 +1,29 @@
+Dungeon Escape Controls:
+
+Player 1: 
+
+A = Move Left
+
+D = Move Right
+
+SPACE = Jump
+
+V = Attack
+
+Player2:
+
+Left Arrow = Move Left
+
+Right Arrow = Move Right 
+
+4 = Jump
+
+5 = Attack 
+
+
+
+Credits:
+
+Jaden Malagodi: Programmer, Tile Artist
+
+James Hoffman: Sprite Artist, Level Designer 

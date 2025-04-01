@@ -79,7 +79,7 @@ public class EnemyAggro : MonoBehaviour
 
         if (patrol)
         {
-            speed = 2.5f;
+            speed = 1.5f;
             if (currentPoint == pointB.transform)
             {
                 rb.velocity = new Vector2(speed, 0);
